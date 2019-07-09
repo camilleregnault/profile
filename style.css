@@ -44,10 +44,14 @@ a {
 }
 
 .img-circle {
-  border-radius: 50%;
+  border-radius: 15%;
   width: 70px;
   height: 70px;
   object-fit: cover
+}
+
+.skills {
+  padding: 18px 0 45px 0;
 }
 
 .list-inline {
@@ -57,7 +61,7 @@ a {
 
 li {
   display: inline;
-  padding: 10px 10px;
+  padding: 15px 15px;
 }
 
 .fab {
@@ -79,7 +83,6 @@ a.btn-blue {
 .btn-blue:hover {
   background-color: rgb(0, 96, 128);
   font-style: bold;
-  background-color: rgb(102, 217, 255);
 }
 
 p {
@@ -104,3 +107,4 @@ p {
     width: 300px;
   }
 }
+
