@@ -32,11 +32,20 @@ h3 {
 }
 
 a {
-  color:  #a7b9f9;
-  font-weight: 500;
-  font-size: 22px;
-  text-decoration: none;
+  text-decoration: none; 
 }
+
+ul {
+  padding: 0;
+}
+
+.text-link {
+  color: grey;
+}
+
+/* .text-link::before {
+  content: '⊛ '
+} */
 
 .container {
   width: 800px;
@@ -75,7 +84,7 @@ a {
   /* pastel violet e4bad4 */
   /* C1D5DE bleu vintage */
   /* vert vintage DEEDE6 */
-  padding: 25px;
+  padding: 24px;
   border-radius: 10px;
   text-align: left;
   border-top: 25px solid  #5A5475; 
@@ -185,10 +194,6 @@ a {
   object-fit: cover
 }
 
-.skills {
-  padding: 18px 0 45px 0;
-}
-
 .list-inline {
   text-align: center;
   list-style: none;
@@ -203,6 +208,10 @@ li {
 .fab {
   font-size: 70px;
   opacity: 0.8;
+  color:  #a7b9f9;
+  /* font-weight: 500; */
+  /* font-size: 22px; */
+  /* text-decoration: none; */
 }
 
 .fab:hover{
@@ -214,6 +223,9 @@ a.btn-blue {
     padding: 20px 28px;
     border-radius: 4px;
     margin-top: 40px;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 .btn-blue:hover {
@@ -222,7 +234,7 @@ a.btn-blue {
 }
 
 p {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 960px) {
