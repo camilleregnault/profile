@@ -248,6 +248,48 @@ p {
   .container {
     width: 500px;
   }
+
+  #first-card {
+    padding-left: 10%;
+  }
+
+  #last-card {
+    padding-left: 10%;
+  }
+
+  .logo-code {
+    width: 19%;
+    margin: 25px 0;
+  }
+
+  .card-white {
+    margin-left: -20%;
+    margin-right: -32%;
+  }
+
+  .card-long1 {
+    width: 70%;
+    font-size: 15px;
+    height: 350px;
+  }
+  
+  .card-small1 {
+    width: 70%;
+    font-size: 15px;
+  }
+
+  .card-small2 {
+    width: 70%;
+  }
+
+  .card-small3 {
+    width: 70%;
+  }
+
+  .card-small4 {
+    width: 70%;
+    font-size: 15px;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
