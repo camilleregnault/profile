@@ -43,6 +43,12 @@ ul {
   color: grey;
 }
 
+.text-link:hover {
+  text-decoration: underline #d4f8e8;
+  /* color: #FEDFBA; */ 
+  background-color: #fcf5cc;
+}
+
 /* .text-link::before {
   content: '⊛ '
 } */
