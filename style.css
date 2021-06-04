@@ -81,7 +81,7 @@ ul {
   /* box-shadow: 0px 10px 30px rgba(0,0,0, 0.1); */
   border-radius: 4px;
   margin: 10px 10px;
-  height: 255px;
+  height: 265px;
   /* background: #B394F1; */
   /* d4f8e8 green pastel*/
   /* 98ddca green un peu plus foncé */
@@ -243,11 +243,16 @@ p {
   padding-bottom: 10px;
 }
 
+.logo-code {
+  height: 60px;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }
+
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
@@ -264,7 +269,6 @@ p {
   }
 
   .logo-code {
-    width: 19%;
     margin: 25px 0;
   }
 
