@@ -45,9 +45,13 @@ a {
 
 .img-circle {
   border-radius: 15%;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   object-fit: cover
+}
+
+.img-skills {
+  height: 60px;
 }
 
 .skills {
